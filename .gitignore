@@ -555,56 +555,6 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 
-### lfs ###
-
-# 3D models
-*.3dm
-*.3ds
-*.blend
-*.c4d
-*.collada
-*.dae
-*.dxf
-*.fbx
-*.jas
-*.lws
-*.lxo
-*.ma
-*.max
-*.mb
-*.obj
-*.ply
-*.skp
-*.stl
-*.ztl
-# Audio
-*.aif
-*.aiff
-*.it
-*.mod
-*.mp3
-*.ogg
-*.s3m
-*.wav
-*.xm
-# Fonts
-*.otf
-*.ttf
-# Images
-*.bmp
-*.exr
-*.gif
-*.hdr
-*.iff
-*.jpeg
-*.jpg
-*.pict
-*.png
-*.psd
-*.tga
-*.tif
-*.tiff
-
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio
 
