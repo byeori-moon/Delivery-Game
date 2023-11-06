@@ -13,9 +13,6 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float MaxSteering = 45f;
     [SerializeField] private float brakePower = 250f;
     
-    private float motorPower = 1500f;
-    private float steering = 45f;
-    
     void Awake()
     {
         _rigidBody = GetComponent<Rigidbody>();
@@ -27,12 +24,12 @@ public class PlayerController : MonoBehaviour
     {
         for (int i = 2; i < 4; i++)
         {
-            wheels[i].motorTorque = Input.GetAxis("Vertical") * motorPower * -1;
+            wheels[i].motorTorque = Input.GetAxis("Vertical") * MaxMotorPower * -1;
         }
         
         for (int i = 0; i < 2; i++)
         {
-            wheels[i].steerAngle = Input.GetAxis("Horizontal") * steering;
+            wheels[i].steerAngle = Input.GetAxis("Horizontal") * MaxSteering;
             wheels[i].brakeTorque = Input.GetKey(KeyCode.Space) ? brakePower : 0;
                 
 
