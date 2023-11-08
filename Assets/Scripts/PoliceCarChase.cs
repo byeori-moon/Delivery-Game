@@ -15,7 +15,7 @@ public class PoliceCarChase : MonoBehaviour
         StartCoroutine(SetTarget());
     }
 
-    IEnumerator SetTarget()
+    public IEnumerator SetTarget()
     {
         while (policeLifetime > 0)
         {
