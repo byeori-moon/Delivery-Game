@@ -6,15 +6,14 @@ public class TrafficLightTrigger : MonoBehaviour
 {
     public TrafficLightController tc;
     public GameObject policeCar;
-    public Vector3 policecarSpawnPoint;
-    public Quaternion policecarRotation;
+    public Transform policecarSpawnPoint;
 
     private void OnTriggerEnter(Collider other)
     {
         if (tc.isRedLight)
         {
-            policeCar.transform.position = policecarSpawnPoint;
-            policeCar.transform.rotation = policecarRotation;
+            policeCar.transform.position = policecarSpawnPoint.position;
+            policeCar.transform.rotation = policecarSpawnPoint.rotation;
             policeCar.SetActive(true);
             policeCar.GetComponent<PoliceCarChase>().SetTarget();
         }

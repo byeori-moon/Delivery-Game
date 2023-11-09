@@ -23,5 +23,6 @@ public class PoliceCarChase : MonoBehaviour
             policeLifetime -= refreshTargetDuration;
             yield return new WaitForSeconds(refreshTargetDuration);
         }
+        gameObject.SetActive(false);
     }
 }
