@@ -12,5 +12,5 @@ UNITY3D와 VR기기를 활용해서 운전 시뮬레이션을 할 수 있도록 
 4. **아이가 신호등을 건너는 동안 상호작용**: 아이가 신호등을 건너는 동안 차에 닿으면 경찰차가 소환되도록 개발.
 
 ## 데모 영상
-- [KakaoTalk_Video_2023-12-14-20-37-00.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/b9eb5b66-d4a5-4054-89c7-9926a800ce82/47e67554-a553-4ab6-9f91-bee99ce0b08a/KakaoTalk_Video_2023-12-14-20-37-00.mp4)
+[동영상 보기](https://youtu.be/govIxYUxGzc)
 - [KakaoTalk_Video_2023-12-14-20-37-27.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/b9eb5b66-d4a5-4054-89c7-9926a800ce82/982876ab-edc7-4c41-bb22-ed5f9067b97a/KakaoTalk_Video_2023-12-14-20-37-27.mp4)
