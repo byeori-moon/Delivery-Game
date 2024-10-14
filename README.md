@@ -13,5 +13,5 @@ UNITY3D와 VR기기를 활용해서 운전 시뮬레이션을 할 수 있도록 
 
 ## 데모 영상
 [오늘은 푸앙이츠 데모영상1](https://youtu.be/govIxYUxGzc)
-[오늘은 푸앙이츠 데모영상2][(https://youtu.be/govIxYUxGzc)](https://youtu.be/HecVDcLQ2VU)
+[오늘은 푸앙이츠 데모영상2](https://youtu.be/HecVDcLQ2VU)
 
